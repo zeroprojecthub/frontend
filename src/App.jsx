@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
 
-    axios.get('https://fullstack-fawn-nine.vercel.app/api/jokes')
+    axios.get('/api/jokes')
       .then(function (response) {
         // handle success
         setData(response.data);
